@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background: url('../images/dairy.jpg') no-repeat;
+    background-size: cover;
+}
+
+.submission-form{
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: #fff;
+}
+
+.submission-form h1{
+    font-size: 50px;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.submission-form h3{
+    font-size: 20px;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.submission-form p{
+    font-size: 10px;
+    margin: 15px 0;
+}
+
+.submission-form input{
+    font-size: 16px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+}
+
+.submission-form button {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    margin-left: 130px;
+    padding: 10px 15px;
+    width: 50%;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    background-color: green;
+}
+
+.checkbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    word-wrap: break-word;
+  }
